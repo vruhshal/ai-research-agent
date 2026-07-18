@@ -1,0 +1,86 @@
+{
+  "final_answer": {
+    "user_question": "Find 5 Indian B2B SaaS startups in HR tech and summarize their positioning.",
+    "short_answer": "While specific details on 5 Indian B2B SaaS startups in HR tech are not provided in the sources, companies like Freshworks and Zoho are known for their HR tech solutions. Other startups mentioned across various sources for their innovative approaches to HR tech include those focused on streamlining recruitment, talent management, payroll, and employee engagement processes.",
+    "key_findings": [
+      "The Indian HR tech market is experiencing significant growth, driven by the need for efficient HR management solutions.",
+      "Startups are leveraging technology like AI, machine learning, and analytics to solve complex workforce challenges.",
+      "Key areas of focus for HR tech startups include recruitment, talent management, payroll processing, and employee engagement.",
+      "Established companies like Freshworks and Zoho offer comprehensive suites of business, productivity, and collaboration applications.",
+      "The market includes a range of solutions from core HRMS and payroll engines to talent acquisition suites and learning experience platforms."
+    ],
+    "sources": [
+      {
+        "title": "TrustMRR - Buy and Sell SaaS Startups",
+        "url": "https://trustmrr.com/",
+        "snippet": "A marketplace for buying and selling SaaS startups, but does not specifically list HR tech startups."
+      },
+      {
+        "title": "Top 10 SaaS Startups in India",
+        "url": "https://indiapioneer.in/top-10-saas-startups-in-india/",
+        "snippet": "Features Freshworks and Zoho among top SaaS startups, highlighting their impact on the industry."
+      },
+      {
+        "title": "Top 10 HR Tech Companies in India: Enhancing HR Operations",
+        "url": "https://employwise.com/articles/top-10-hr-tech-companies-in-india/",
+        "snippet": "Discusses the role of HR tech companies in streamlining HR processes and improving efficiency."
+      },
+      {
+        "title": "Top HR Tech Companies in India (2026) | Best HR Software List",
+        "url": "https://www.mewurk.com/blog/top-hr-tech-companies-india",
+        "snippet": "Provides an overview of the HR tech landscape in India, highlighting key components of HR tech solutions."
+      },
+      {
+        "title": "HRMS Software for Indian Startups in 2026",
+        "url": "https://savvyhrms.com/hrms-software-for-indian-startups-in-2026/",
+        "snippet": "Explains the benefits of HRMS software for startups, including automation of HR functions and improved efficiency."
+      },
+      {
+        "title": "15 Best HR Software in India (2026) | ZingHR",
+        "url": "https://www.zinghr.com/blogs/hr-software-in-india",
+        "snippet": "Lists and reviews top HR software solutions in India, focusing on their features and benefits."
+      },
+      {
+        "title": "Top 10 HR Tech Startups In 2026 - Inventiva",
+        "url": "https://www.inventiva.co.in/trends/top-10-hr-tech-startups-in-2026/",
+        "snippet": "Discusses the growth of HR tech startups in India and their innovative approaches to solving workforce challenges."
+      },
+      {
+        "title": "Top HR Tech Startups in India for 2026 - viestories.com",
+        "url": "https://viestories.com/insight/startup-insight/hr-tech-startups-in-india-7561651",
+        "snippet": "Highlights how HR tech startups are transforming the human resources landscape with technology."
+      }
+    ],
+    "confidence": "low",
+    "limitations": [
+      "The sources do not provide a clear list of 5 Indian B2B SaaS startups in HR tech.",
+      "Information on specific startups and their positioning is limited.",
+      "The focus is more on the general HR tech landscape and established players rather than new startups."
+    ],
+    "assumptions": [
+      "Assuming the question seeks information on Indian B2B SaaS startups that specifically focus on HR tech solutions.",
+      "Assuming the relevance of sources extends to the current market situation, despite some sources being from previous years."
+    ],
+    "next_steps": [
+      "Conduct a more targeted search for recent articles or lists specifically highlighting new Indian B2B SaaS startups in HR tech.",
+      "Explore startup databases or platforms that focus on Indian startups to find more precise information.",
+      "Reach out to industry experts or networks for insights into the current HR tech startup scene in India."
+    ]
+  },
+  "plan": {
+    "reasoning": "To find Indian B2B SaaS startups in HR tech, we'll first identify key search terms and then look for relevant information on these startups. We'll also need to understand the HR tech landscape in India and the types of solutions these startups provide. By searching for Indian HR tech startups and their descriptions, we can compile a list and summarize their positioning.",
+    "sub_questions": [
+      "Indian B2B SaaS startups in HR tech",
+      "Top HR tech companies in India",
+      "Indian startups providing HR management software",
+      "New Indian startups in human resources technology"
+    ],
+    "tools_needed": [
+      "web_search",
+      "fetch_url"
+    ]
+  },
+  "evidence_count": 8,
+  "total_latency_ms": 19366,
+  "pipeline_status": "ok"
+}

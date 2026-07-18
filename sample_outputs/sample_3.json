@@ -1,0 +1,66 @@
+{
+  "final_answer": {
+    "user_question": "Compare the flibbertigibbet protocol adoption rates across quantum toaster vendors in 2031.",
+    "short_answer": "There is no data available on the adoption rates of the flibbertigibbet protocol across quantum toaster vendors in 2031. The available sources do not mention any quantum toaster vendors using the flibbertigibbet protocol.",
+    "key_findings": [
+      "No information on quantum toaster vendors using the flibbertigibbet protocol was found in the available sources.",
+      "The sources do not provide data on adoption rates of the flibbertigibbet protocol across quantum toaster vendors.",
+      "The term 'flibbertigibbet protocol' is not mentioned in any of the sources as being related to quantum toaster vendors."
+    ],
+    "sources": [
+      {
+        "title": "Case Study: The Sentient Toaster Incident",
+        "url": "https://aiyikes.com/case-study-the-sentient-toaster-incident/",
+        "snippet": "A case study on a sentient toaster incident, which may be related to quantum toaster vendors, but does not mention the flibbertigibbet protocol."
+      },
+      {
+        "title": "Database of Quantum Security Companies (2025)",
+        "url": "https://postquantum.com/database-quantum-security-companies/",
+        "snippet": "A database of quantum security companies, but it does not mention the flibbertigibbet protocol or quantum toaster vendors."
+      },
+      {
+        "title": "Scope 3 Supplier Data: 2026 GHG Protocol Guide",
+        "url": "https://www.certaintysoftware.com/scope-3-supplier-data-ghg-protocol-revision-supply-chain/",
+        "snippet": "A guide on Scope 3 supplier data, which is unrelated to quantum toaster vendors or the flibbertigibbet protocol."
+      },
+      {
+        "title": "How to Track Blockchain Protocol Upgrade Adoption",
+        "url": "https://chainscorelabs.com/guides/blockchain-infra-consensus-networking-storage-execution-layers-evm-svm-etc-etc/protocol-upgrades/how-to-track-upgrade-adoption",
+        "snippet": "A guide on tracking blockchain protocol upgrade adoption, but it does not mention the flibbertigibbet protocol or quantum toaster vendors."
+      },
+      {
+        "title": "lemma list - Lexically.net",
+        "url": "https://lexically.net/downloads/BNC_wordlists/e_lemma.txt",
+        "snippet": "A lemma list, which is unrelated to quantum toaster vendors or the flibbertigibbet protocol."
+      }
+    ],
+    "confidence": "low",
+    "limitations": [
+      "The available sources do not provide any relevant data on the adoption rates of the flibbertigibbet protocol across quantum toaster vendors in 2031.",
+      "The term 'flibbertigibbet protocol' is not mentioned in any of the sources as being related to quantum toaster vendors."
+    ],
+    "assumptions": [
+      "It is assumed that the sources provided are representative of the available information on quantum toaster vendors and the flibbertigibbet protocol."
+    ],
+    "next_steps": [
+      "Conduct a more extensive search for relevant sources that may provide data on the adoption rates of the flibbertigibbet protocol across quantum toaster vendors in 2031.",
+      "Reach out to industry experts or vendors in the quantum toaster market to gather more information on the flibbertigibbet protocol adoption rates."
+    ]
+  },
+  "plan": {
+    "reasoning": "To compare the adoption rates of the flibbertigibbet protocol across quantum toaster vendors in 2031, we need to gather data on the vendors that have implemented this protocol and their respective adoption rates. This involves searching for industry reports, news articles, and vendor announcements from 2031. The search results will be used to identify the vendors and their adoption rates, which can then be compared.",
+    "sub_questions": [
+      "quantum toaster vendors using flibbertigibbet protocol 2031",
+      "flibbertigibbet protocol adoption rate by vendor 2031",
+      "list of quantum toaster vendors with flibbertigibbet support",
+      "industry report on flibbertigibbet protocol in quantum toasters 2031"
+    ],
+    "tools_needed": [
+      "web_search",
+      "fetch_url"
+    ]
+  },
+  "evidence_count": 10,
+  "total_latency_ms": 46120,
+  "pipeline_status": "ok"
+}
