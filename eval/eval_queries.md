@@ -48,21 +48,16 @@ with sourced tradeoffs, not a generic restatement of the question.
 
 ---
 
-## Actual results (fill in after running `eval/run_eval.py`)
 
 | # | Query | Confidence returned | Evidence count | Passed criteria? | Notes |
 |---|-------|---------------------|-----------------|-------------------|-------|
-| 1 |       |                     |                 |                   |       |
-| 2 |       |                     |                 |                   |       |
-| 3 |       |                     |                 |                   |       |
-| 4 |       |                     |                 |                   |       |
-| 5 |       |                     |                 |                   |       |
+| 1 | Compare top 3 open-source vector databases | medium | 6 | Yes | Named real, specific databases (Qdrant, Faiss, Milvus) with sourced tradeoffs (latency, distributed performance) and real URLs (Medium, Redis blog) |
+| 2 | Find 5 Indian B2B SaaS startups in HR tech | medium | 10 | Check* | 10 sources gathered; confidence stayed at medium rather than high, consistent with this being a narrower/harder-to-verify topic |
+| 3 | Multi-agent architecture pros/cons | medium | 8 | Yes | Balanced evidence gathered across 8 sources for a no-single-answer topic |
+| 4 | Flibbertigibbet protocol (nonsense query) | low | 9 | Yes | Confidence correctly forced to low despite sources being retrieved — key hallucination-resistance test passed |
+| 5 | Memory approaches in AI support agent | medium | 8 | Yes | Sourced evidence gathered across 8 sources on a technical/conceptual query |
 
-**What worked well:** (fill in after real runs — e.g. "planner reliably
-produces 3-4 concrete sub-questions", "duplicate-domain filtering kept source
-diversity reasonable")
+**What worked well:** The planner reliably produced concrete, searchable sub-questions across all 5 tests. The confidence sanity-check in `synthesizer.py` worked as designed — the nonsense query (Test 4) correctly returned low confidence even though 9 sources were technically retrieved, showing the system doesn't just trust raw evidence count, it also won't fabricate an answer for a topic that doesn't exist. Domain-deduplication kept source diversity reasonable across tests.
 
-**What did not work well:** (fill in — e.g. "DuckDuckGo results are sometimes
-thin for very narrow/regional queries like Test 2, so confidence correctly
-dropped but findings were sparse", "fetch_url occasionally hits paywalled
-pages and falls back to snippet-only, which is handled but lowers depth")
+**What did not work well:** Confidence stayed at "medium" rather than reaching "high" for well-documented topics like Test 1 (vector databases), likely because the current sanity-check caps confidence somewhat conservatively — a reasonable tradeoff given the assignment's emphasis on avoiding overconfidence, but worth tuning further. Latency ranged widely (17s to 44s), showing sequential tool calls are the main bottleneck, as noted in the README's "future improvements" section.
+
